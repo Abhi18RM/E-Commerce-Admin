@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    margin: 10px;
+}
+
+.productList {
+    flex: 4;
+    padding: 20px;
+}
+
+.productListUser {
+    display: flex;
+    align-items: center;
+}
+
+.productListImg {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.productListEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.productListDelete {
+    color: red;
+    cursor: pointer;
+}
